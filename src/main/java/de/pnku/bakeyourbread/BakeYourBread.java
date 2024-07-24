@@ -18,6 +18,6 @@ public class BakeYourBread implements ModInitializer {
     }
 
     public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+        return new ResourceLocation(MODID, path);
     }
 }
