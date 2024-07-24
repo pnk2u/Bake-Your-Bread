@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_unbaked_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bakeyourbread:unbaked_bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bakeyourbread:bread_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_unbaked_bread"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bakeyourbread:bread_from_smoking"
+    ]
+  }
+}

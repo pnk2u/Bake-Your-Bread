@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": [
+		"${mod_authors}"
+	],
+	"contact": {
+		"homepage": "https://www.pnku.de",
+		"sources": "https://github.com/pnk2u/Bake-Your-Bread",
+		"issues": "https://github.com/pnk2u/Bake-Your-Bread/issues"
+	},
+	"license": "${mod_license}",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "de.pnku.bakeyourbread.BakeYourBread"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": ">=0.100.0"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "B": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "#X#",
+    " B "
+  ],
+  "result": {
+    "count": 8,
+    "id": "bakeyourbread:unbaked_cookie"
+  }
+}

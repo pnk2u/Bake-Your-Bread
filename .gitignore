@@ -1,0 +1,74 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+/.gradle/
+/.idea/
+/build/
+/run/
+.idea/vcs.xml
+.idea/misc.xml
+.idea/gradle.xml
+.gradle/vcs-1/gc.properties
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.2.34+f71b366f77/fabric-command-api-v1-1.2.34+f71b366f77.pom
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.2.34+f71b366f77/fabric-command-api-v1-1.2.34+f71b366f77.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-block-api-v1/1.0.11+1802ada577/fabric-block-api-v1-1.0.11+1802ada577.pom
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-block-api-v1/1.0.11+1802ada577/fabric-block-api-v1-1.0.11+1802ada577.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/13.0.13+1802ada577/fabric-biome-api-v1-13.0.13+1802ada577.pom
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/13.0.13+1802ada577/fabric-biome-api-v1-13.0.13+1802ada577.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api/0.92.2+1.20.1/fabric-api-0.92.2+1.20.1.pom
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api/0.92.2+1.20.1/fabric-api-0.92.2+1.20.1.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api/0.92.2+1.20.1/fabric-api-0.92.2+1.20.1-sources.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.31+1802ada577/fabric-api-base-0.4.31+1802ada577.pom
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.31+1802ada577/fabric-api-base-0.4.31+1802ada577.jar
+.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_10_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.31+1802ada577/fabric-api-base-0.4.31+1802ada577-sources.jar
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/8.6/gc.properties
+.gradle/8.6/fileHashes/resourceHashesCache.bin
+.gradle/8.6/fileHashes/fileHashes.lock
+.gradle/8.6/fileHashes/fileHashes.bin
+.gradle/8.6/fileChanges/last-build.bin
+.gradle/8.6/executionHistory/executionHistory.lock
+.gradle/8.6/executionHistory/executionHistory.bin
+.gradle/8.6/dependencies-accessors/gc.properties
+.gradle/8.6/checksums/sha1-checksums.bin
+.gradle/8.6/checksums/md5-checksums.bin
+.gradle/8.6/checksums/checksums.lock
