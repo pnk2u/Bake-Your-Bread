@@ -2,7 +2,7 @@
   "type": "minecraft:smoking",
   "category": "food",
   "cookingtime": 100,
-  "experience": 0.35,
+  "experience": 0.95,
   "ingredient": {
     "item": "bakeyourbread:uncooked_rabbit_stew"
   },
