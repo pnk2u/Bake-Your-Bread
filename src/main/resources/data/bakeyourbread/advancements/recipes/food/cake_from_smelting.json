@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "bakeyourbread:unbaked_cake"
+            "items": [ "bakeyourbread:unbaked_cake" ]
           }
         ]
       },
