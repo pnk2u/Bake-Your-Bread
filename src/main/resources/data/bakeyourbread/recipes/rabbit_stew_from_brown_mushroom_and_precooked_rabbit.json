@@ -4,10 +4,10 @@
   "group": "rabbit_stew",
   "ingredients": [
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:cooked_rabbit"
     },
     {
       "item": "minecraft:bowl"
