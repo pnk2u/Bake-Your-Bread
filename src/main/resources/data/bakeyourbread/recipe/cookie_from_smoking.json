@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "cookingtime": 100,
-  "experience": 0.35,
+  "cookingtime": 15,
+  "experience": 0.05,
   "ingredient": {
     "item": "bakeyourbread:unbaked_cookie"
   },
