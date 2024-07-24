@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "bakeyourbread:uncooked_mushroom_stew"
+            "items": [ "bakeyourbread:uncooked_mushroom_stew" ]
           }
         ]
       },

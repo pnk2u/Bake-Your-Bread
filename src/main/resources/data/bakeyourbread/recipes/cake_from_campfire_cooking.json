@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "bakeyourbread:unbaked_cake"
   },
-  "result": {
-    "id": "minecraft:cake"
-  }
+  "result": "minecraft:cake"
 }

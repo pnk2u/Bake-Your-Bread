@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "bakeyourbread:uncooked_beetroot_soup"
+            "items": [ "bakeyourbread:uncooked_beetroot_soup" ]
           }
         ]
       },
