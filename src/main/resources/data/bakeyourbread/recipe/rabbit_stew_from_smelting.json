@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.95,
-  "ingredient": {
-    "item": "bakeyourbread:uncooked_rabbit_stew"
-  },
+  "ingredient": "bakeyourbread:uncooked_rabbit_stew",
   "result": {
     "id": "minecraft:rabbit_stew"
   }

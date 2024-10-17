@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": {
-    "item": "bakeyourbread:uncooked_mushroom_stew"
-  },
+  "ingredient": "bakeyourbread:uncooked_mushroom_stew",
   "result": {
     "id": "minecraft:mushroom_stew"
   }

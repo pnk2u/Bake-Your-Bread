@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 30,
   "experience": 0.05,
-  "ingredient": {
-    "item": "bakeyourbread:unbaked_cookie"
-  },
+  "ingredient": "bakeyourbread:unbaked_cookie",
   "result": {
     "id": "minecraft:cookie"
   }
