@@ -3,24 +3,12 @@
   "category": "misc",
   "group": "rabbit_stew",
   "ingredients": [
-    {
-      "item": "minecraft:baked_potato"
-    },
-    {
-      "item": "minecraft:rabbit"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    }
+    "minecraft:baked_potato",
+    "minecraft:rabbit",
+    "minecraft:bowl",
+    "minecraft:carrot",
+    "minecraft:red_mushroom",
+    "minecraft:water_bucket"
   ],
   "result": {
     "count": 1,

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:wheat"
-    },
-    "B": {
-      "item": "minecraft:water_bucket"
-    }
+    "#": "minecraft:wheat",
+    "B": "minecraft:water_bucket"
   },
   "pattern": [
     "###",

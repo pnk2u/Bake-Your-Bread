@@ -3,9 +3,7 @@
   "category": "food",
   "cookingtime": 100,
   "experience": 0.6,
-  "ingredient": {
-    "item": "bakeyourbread:unbaked_pumpkin_pie"
-  },
+  "ingredient": "bakeyourbread:unbaked_pumpkin_pie",
   "result": {
     "id": "minecraft:pumpkin_pie"
   }
