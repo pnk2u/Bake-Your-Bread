@@ -15,9 +15,9 @@ import static de.pnku.bakeyourbread.BakeYourBread.*;
 import static de.pnku.bakeyourbread.item.BakeyourbreadFoodComponents.*;
 
 public class BakeyourbreadItemInit {
-    public static final Item UNCOOKED_BEETROOT_SOUP = new Item(setFoodProperties("uncooked_beetroup_soup", UNCOOKED_BEETROUP_SOUP_F));
-    public static final Item UNCOOKED_MUSHROOM_STEW = new Item(setFoodProperties("uncooked_mushroom_stew", UNCOOKED_MUSHROOM_STEW_F));
-    public static final Item UNCOOKED_RABBIT_STEW = new Item(setFoodProperties("uncooked_rabbit_stew", UNCOOKED_RABBIT_STEW_F, UNCOOKED_RABBIT_STEW_C));
+    public static final Item UNCOOKED_BEETROOT_SOUP = new Item(setFoodProperties("uncooked_beetroot_soup", UNCOOKED_BEETROOT_SOUP_F).usingConvertsTo(Items.BOWL));
+    public static final Item UNCOOKED_MUSHROOM_STEW = new Item(setFoodProperties("uncooked_mushroom_stew", UNCOOKED_MUSHROOM_STEW_F).usingConvertsTo(Items.BOWL));
+    public static final Item UNCOOKED_RABBIT_STEW = new Item(setFoodProperties("uncooked_rabbit_stew", UNCOOKED_RABBIT_STEW_F, UNCOOKED_RABBIT_STEW_C).usingConvertsTo(Items.BOWL));
     public static final Item UNBAKED_BREAD = new Item(setFoodProperties("unbaked_bread", BREAD_DOUGH_F, BREAD_DOUGH_C));
     public static final Item UNBAKED_CAKE = new Item(setFoodProperties("unbaked_cake", UNBAKED_CAKE_F, UNBAKED_CAKE_C));
     public static final Item UNBAKED_COOKIE = new Item(setFoodProperties("unbaked_cookie", COOKIE_DOUGH_F, COOKIE_DOUGH_C));

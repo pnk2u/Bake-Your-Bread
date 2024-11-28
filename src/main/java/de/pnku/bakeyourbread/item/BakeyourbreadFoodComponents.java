@@ -17,7 +17,7 @@ public class BakeyourbreadFoodComponents {
     public static final FoodProperties BREAD_DOUGH_F = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5F).build();
     public static final FoodProperties PUMPKIN_PIE_DOUGH_F = (new FoodProperties.Builder()).nutrition(4).saturationModifier(0.2F).build();
     public static final FoodProperties UNBAKED_CAKE_F = (new FoodProperties.Builder()).nutrition(6).saturationModifier(0.6F).build();
-    public static final FoodProperties UNCOOKED_BEETROUP_SOUP_F = uncookedStew(5).build();
+    public static final FoodProperties UNCOOKED_BEETROOT_SOUP_F = uncookedStew(5).build();
     public static final FoodProperties UNCOOKED_MUSHROOM_STEW_F = uncookedStew(4).build();
     public static final FoodProperties UNCOOKED_RABBIT_STEW_F = uncookedStew(5).build();
 
