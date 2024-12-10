@@ -1,0 +1,11 @@
+{
+  "modmenu.descriptionTranslation.bakeyourbread": "Додає не приготовані варіанти їжі",
+  "item.bakeyourbread.unbaked_bread": "Тісто для хліба",
+  "item.bakeyourbread.unbaked_cake": "Не приготований торт",
+  "item.bakeyourbread.unbaked_cookie": "Тісто для печива",
+  "item.bakeyourbread.unbaked_pumpkin_pie": "Тісто для гарбузового пирога",
+
+  "item.bakeyourbread.uncooked_beetroot_soup": "Не приготований борщ",
+  "item.bakeyourbread.uncooked_mushroom_stew": "Не приготовані тушковані гриби",
+  "item.bakeyourbread.uncooked_rabbit_stew": "Не приготований тушкований кролик"
+}
