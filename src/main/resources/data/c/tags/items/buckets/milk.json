@@ -9,6 +9,7 @@
     {
       "id": "tastyvanilla:sheep_milk_bucket",
       "required": false
-    }
+    },
+    "#c:milk_buckets"
   ]
 }

@@ -11,10 +11,10 @@
   },
   "pattern": [
     "###",
-    "BBB"
+    " B "
   ],
   "result": {
     "count": 1,
-    "id": "bakeyourbread:unbaked_bread"
+    "item": "bakeyourbread:unbaked_bread"
   }
 }
