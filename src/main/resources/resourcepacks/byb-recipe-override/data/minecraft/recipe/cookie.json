@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "c:crops/wheat"
-    },
-    "X": {
-      "tag": "c:crops/cocoa_bean"
-    },
-    "B": {
-      "tag": "c:buckets/milk"
-    }
+    "#": "#c:crops/wheat",
+    "X": "#c:crops/cocoa_bean",
+    "B": "#c:buckets/milk"
   },
   "pattern": [
     "#X#",

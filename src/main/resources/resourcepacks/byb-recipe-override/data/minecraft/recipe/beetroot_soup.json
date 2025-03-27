@@ -2,30 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:crops/beetroot"
-    },
-    {
-      "tag": "c:buckets/water"
-    }
+    "minecraft:bowl",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:buckets/water"
   ],
   "result": {
     "count": 1,

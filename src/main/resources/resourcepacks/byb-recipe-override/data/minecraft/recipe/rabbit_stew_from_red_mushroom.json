@@ -3,24 +3,12 @@
   "category": "misc",
   "group": "rabbit_stew",
   "ingredients": [
-    {
-      "tag": "c:crops/potato"
-    },
-    {
-      "item": "minecraft:rabbit"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:crops/carrot"
-    },
-    {
-      "tag": "c:mushrooms"
-    },
-    {
-      "tag": "c:buckets/water"
-    }
+    "#c:crops/potato",
+    "minecraft:rabbit",
+    "minecraft:bowl",
+    "#c:crops/carrot",
+    "#c:mushrooms",
+    "#c:buckets/water"
   ],
   "result": {
     "count": 1,
