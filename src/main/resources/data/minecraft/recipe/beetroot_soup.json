@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     "minecraft:bowl",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:water_bucket"
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:crops/beetroot",
+    "#c:buckets/water"
   ],
   "result": {
     "count": 1,

@@ -49,14 +49,14 @@ public class BakeyourbreadItemInit {
 
 
     private static void registerUncookedFood(Item heatedItem, Item rawItem) {
-        Registry.register(BuiltInRegistries.ITEM, asId("uncooked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "")), rawItem);
+        Registry.register(BuiltInRegistries.ITEM, withModId("uncooked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "")), rawItem);
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.addBefore(heatedItem, rawItem));
         LOGGER.info("Stews and soups are cooking...");
     }
 
     private static void registerUnbakedFood(Item heatedItem, Item rawItem) {
-        Registry.register(BuiltInRegistries.ITEM, asId("unbaked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "").replaceFirst("block.minecraft.","")), rawItem);
+        Registry.register(BuiltInRegistries.ITEM, withModId("unbaked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "").replaceFirst("block.minecraft.","")), rawItem);
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.addBefore(heatedItem, rawItem));
         LOGGER.info("Breads, cakes, cookies and pies are baking...");

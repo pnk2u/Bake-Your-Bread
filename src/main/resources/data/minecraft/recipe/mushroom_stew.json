@@ -5,7 +5,7 @@
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
     "minecraft:bowl",
-    "minecraft:water_bucket"
+    "#c:buckets/water"
   ],
   "result": {
     "count": 1,

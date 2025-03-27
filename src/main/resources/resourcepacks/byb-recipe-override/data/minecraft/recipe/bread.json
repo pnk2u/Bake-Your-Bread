@@ -2,12 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#c:crops/wheat",
-    "B": "#c:buckets/water"
+    "#": {
+      "tag": "c:crops/wheat"
+    },
+    "B": {
+      "tag": "c:buckets/water"
+    }
   },
   "pattern": [
     "###",
-    " B "
+    "BBB"
   ],
   "result": {
     "count": 1,

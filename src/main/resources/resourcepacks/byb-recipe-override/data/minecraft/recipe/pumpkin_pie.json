@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/pumpkin"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "minecraft:eggs"
+    },
+    {
+      "tag": "c:buckets/milk"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "bakeyourbread:unbaked_pumpkin_pie"
+  }
+}
