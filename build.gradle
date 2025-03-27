@@ -73,7 +73,7 @@ processResources {
 	var replaceProperties = [
 			loader_version: loader_version, mod_id: mod_id, mod_name: mod_name,
 			mod_license: mod_license, mod_version: mod_version, mod_authors: mod_authors,
-			mod_description: mod_description, quad_version: quad_version, minecraft_version_0: decrementedVersion
+			mod_description: mod_description, minecraft_version_0: decrementedVersion
 	]
 	inputs.properties replaceProperties
 
