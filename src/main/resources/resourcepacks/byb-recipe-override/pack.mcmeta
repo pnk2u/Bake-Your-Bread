@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Apply this above Fabric mods to prioritize BYB recipes in case of conflicts.",
+    "description": "Apply this above \"Fabric Mods\" to prioritize BYB recipes - in case of conflicts.",
     "pack_format": 48
   }
 }
