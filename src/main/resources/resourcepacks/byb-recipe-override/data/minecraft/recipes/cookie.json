@@ -5,16 +5,19 @@
     "#": {
       "tag": "c:crops/wheat"
     },
+    "X": {
+      "tag": "c:crops/cocoa_bean"
+    },
     "B": {
-      "tag": "c:buckets/water"
+      "tag": "c:buckets/milk"
     }
   },
   "pattern": [
-    "###",
+    "#X#",
     " B "
   ],
   "result": {
-    "count": 1,
-    "item": "bakeyourbread:unbaked_bread"
+    "count": 8,
+    "id": "bakeyourbread:unbaked_cookie"
   }
 }

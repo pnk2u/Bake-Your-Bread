@@ -4,7 +4,7 @@
   "group": "rabbit_stew",
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "tag": "c:crops/potato"
     },
     {
       "item": "minecraft:rabbit"
@@ -13,13 +13,13 @@
       "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "tag": "c:mushrooms"
     },
     {
-      "item": "minecraft:water_bucket"
+      "tag": "c:buckets/water"
     }
   ],
   "result": {

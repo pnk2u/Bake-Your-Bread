@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:wheat"
+      "tag": "c:crops/wheat"
     },
     "X": {
-      "item": "minecraft:cocoa_beans"
+      "tag": "c:crops/cocoa_bean"
     },
     "B": {
-      "item": "minecraft:milk_bucket"
+      "tag": "c:buckets/milk"
     }
   },
   "pattern": [

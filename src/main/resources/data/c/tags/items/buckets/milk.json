@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:milk_bucket",
+    {
+      "id": "tastyvanilla:goat_milk_bucket",
+      "required": false
+    },
+    {
+      "id": "tastyvanilla:sheep_milk_bucket",
+      "required": false
+    }
+  ]
+}
