@@ -25,12 +25,12 @@ public class BakeyourbreadItemInit {
 
     public static Item.Properties setFoodProperties(String foodName, FoodProperties foodProperties) {
         return new Item.Properties()
-                .setId(ResourceKey.create(Registries.ITEM, asId(foodName)))
+                .setId(ResourceKey.create(Registries.ITEM, withModId(foodName)))
                 .food(foodProperties);
     }
     public static Item.Properties setFoodProperties(String foodName, FoodProperties foodProperties, Consumable consumable) {
         return new Item.Properties()
-                .setId(ResourceKey.create(Registries.ITEM, asId(foodName)))
+                .setId(ResourceKey.create(Registries.ITEM, withModId(foodName)))
                 .food(foodProperties, consumable);
     }
 
