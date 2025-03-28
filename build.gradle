@@ -5,7 +5,8 @@ plugins {
 	id 'maven-publish'
 }
 
-version = "${mod_version}+${minecraft_version}-Fabric"
+def mc_version_name = project.minecraft_version + "(5)" // To show that 1.21.5 is included, too
+version = "${mod_version}+${mc_version_name}-Fabric"
 group = project.mod_group_id
 
 base {
