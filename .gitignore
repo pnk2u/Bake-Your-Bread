@@ -72,3 +72,5 @@ replay_*.log
 .gradle/8.6/checksums/sha1-checksums.bin
 .gradle/8.6/checksums/md5-checksums.bin
 .gradle/8.6/checksums/checksums.lock
+*_local.*
+[[]*[]]/
