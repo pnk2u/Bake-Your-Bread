@@ -214,7 +214,7 @@ processResources {
 
 	var replaceProperties = [
 			loader_version: fabric_loader_version_0, mod_id: mod_id, mod_name: mod_name,
-			mod_license: mod_license, mod_version: mod_version, mod_description: mod_description,
+			mod_version: mod_version, mod_description: mod_description,
 			minecraft_version: minecraft_version, minecraft_version_0: minecraft_version_0(), minecraft_version_1: minecraft_version_1(),
 			java_version: java_version
 	]
