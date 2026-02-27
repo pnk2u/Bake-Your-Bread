@@ -5,5 +5,8 @@
   "item.minecraft.cookie": "Baked Cookie",
   "item.minecraft.mushroom_stew": "Cooked Mushroom Stew",
   "item.minecraft.pumpkin_pie": "Baked Pumpkin Pie",
-  "item.minecraft.rabbit_stew": "Cooked Rabbit Stew"
+  "item.minecraft.rabbit_stew": "Cooked Rabbit Stew",
+  "item.minecraft.golden_carrot": "Cooked Golden Carrot",
+
+  "item.minecraft.carrot": "Raw Carrot"
 }

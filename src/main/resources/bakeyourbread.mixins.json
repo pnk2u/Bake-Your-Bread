@@ -4,7 +4,8 @@
   "package": "de.pnku.bakeyourbread.mixin",
   "compatibilityLevel": "JAVA_${java_version}",
   "mixins": [
-    "CakeBlockMixin"
+    "CakeBlockMixin",
+    "ItemsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

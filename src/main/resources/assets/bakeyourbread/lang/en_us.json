@@ -7,5 +7,8 @@
 
   "item.bakeyourbread.uncooked_beetroot_soup": "Uncooked Beetroot Soup",
   "item.bakeyourbread.uncooked_mushroom_stew": "Uncooked Mushroom Stew",
-  "item.bakeyourbread.uncooked_rabbit_stew": "Uncooked Rabbit Stew"
+  "item.bakeyourbread.uncooked_rabbit_stew": "Uncooked Rabbit Stew",
+  "item.bakeyourbread.uncooked_golden_carrot": "Uncooked Golden Carrot",
+
+  "item.bakeyourbread.cooked_carrot": "Cooked Carrot"
 }
