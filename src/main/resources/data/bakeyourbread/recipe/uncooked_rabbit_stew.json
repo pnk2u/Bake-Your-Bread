@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rabbit_stew",
+  "ingredients": [
+    [
+      "minecraft:baked_potato",
+      "minecraft:potato"
+
+    ],
+    [
+      "minecraft:cooked_rabbit",
+      "minecraft:rabbit"
+    ],
+    "minecraft:bowl",
+    [
+      "minecraft:carrot",
+      "bakeyourbread:cooked_carrot"
+    ],
+    [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ]
+  ],
+  "result": {
+    "id": "bakeyourbread:uncooked_rabbit_stew"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "particle": "bakeyourbread:block/unbaked_cake_side",
+    "bottom": "bakeyourbread:block/unbaked_cake_bottom",
+    "top": "bakeyourbread:block/unbaked_cake_top",
+    "side": "bakeyourbread:block/unbaked_cake_side"
+  }
+}

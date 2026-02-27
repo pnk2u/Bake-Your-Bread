@@ -1,9 +1,12 @@
 {
   "pack": {
-    "description": "Apply this above Fabric mods to prioritize BYB recipes in case of conflicts.",
-    "pack_format": 61,
+    "description": "Apply this above \"Fabric Mods\" to prioritize BYB recipes - in case of conflicts.",
+    "pack_format": 94,
     "supported_formats": [
-      62
-    ]
+      61,
+      99
+    ],
+    "min_format": 61,
+    "max_format": 99
   }
 }

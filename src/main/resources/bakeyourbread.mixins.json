@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "de.pnku.bakeyourbread.mixin",
+  "compatibilityLevel": "JAVA_${java_version}",
+  "mixins": [
+    "AbstractHorseMixin",
+    "CakeBlockMixin",
+    "ComposterBlockMixin",
+    "ItemsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

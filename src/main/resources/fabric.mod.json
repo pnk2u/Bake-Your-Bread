@@ -4,27 +4,42 @@
 	"version": "${mod_version}",
 	"name": "${mod_name}",
 	"description": "${mod_description}",
-	"authors": [
-		"${mod_authors}"
-	],
+	"authors": ["pnku"],
 	"contact": {
 		"email": "contact@pnku.de",
 		"homepage": "https://www.pnku.de",
 		"sources": "https://github.com/pnk2u/Bake-Your-Bread",
 		"issues": "https://github.com/pnk2u/Bake-Your-Bread/issues"
 	},
-	"license": "${mod_license}",
-	"icon": "logo.png",
+	"license": "CC-BY-NC-SA-4.0",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
           "de.pnku.bakeyourbread.BakeYourBread"
 		]
 	},
+	"mixins": [
+		"bakeyourbread.mixins.json"
+	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",
-		"minecraft": ">${minecraft_version_0}",
-		"java": ">=21",
+		"minecraft": [">${minecraft_version_0} <${minecraft_version_1}"],
+		"java": ">=${java_version}",
 		"fabric-api": ">=0.100.0"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.lieonlion.dev"
+			}
+		},
+		"mc-publish": {
+			"modrinth": "4cgX9zXl",
+			"curseforge": "1070615",
+			"dependencies": [
+				"fabric-api(required)#(ignore)"
+			]
+		}
 	}
 }
