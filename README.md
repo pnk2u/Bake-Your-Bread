@@ -1,9 +1,11 @@
 <a name="bakeyourbread"></a>
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; Bake Your Bread <sub><a title="Bake Your Bread on Modrinth" href="https://www.modrinth.com/mod/bakeyourbread"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="Bake Your Bread on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
 > <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/Bake-Your-Bread/pres/logo/logo_c.png">  
->  A mod adding wood variants for Minecraft's Food. <br><br><br><br>  
->  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/Bake-Your-Bread/pres/mr_mini_banner.gif"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
-<br>  
+>  A mod adding variants for Minecraft's Food. <br><br><br><br>  
+> <br>  
+> <br>  
+> <br>  
+
 
 <a name="compatibility"></a>
 ### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/puzzle.svg"> Compatibility
@@ -56,8 +58,11 @@ Currently available in:
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
 <a name="1.2.0"></a>
-#### 1.2.0[*](#footnote-*):
-- Changelog entry placeholder
+### 1.2.0[*](#footnote-*):
+-  Use *c_tags* and ``#minecraft:eggs`` for the recipes of unbaked/uncooked Items, allowing for better mod compatibility
+  - `1.21.4+`: _Unbaked Cake_ and _Pumpkie Pie Dough_ recipes now include all egg variants added in <ins>1.21.5</ins> via ``#minecraft:eggs``
+-  Add built-in datapack allowing for prevention of *Bake Your Bread* recipes being overwritten by other mods (can be unselected upon world creation or disabled via commands if necessary)
+
 
 <h2><sub><sub><sup><ins>Download 1.2.0 + 1.21(.1)</ins>:</sup>&#x200A;
 <a title="Download (Modrinth):&#10;Bake Your Bread 1.2.0 + 1.21(.1)" href="https://modrinth.com/mod/bakeyourbread/version/IXyped1m">
