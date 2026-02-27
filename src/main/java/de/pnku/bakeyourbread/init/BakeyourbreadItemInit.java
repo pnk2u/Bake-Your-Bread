@@ -4,10 +4,9 @@ import de.pnku.bakeyourbread.BakeYourBread;
 import de.pnku.bakeyourbread.item.BakeyourbreadFoodComponents;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraft.core.Registry;
+import net.minecraft.world.level.block.Blocks;
 
 import static de.pnku.bakeyourbread.BakeYourBread.LOGGER;
 
@@ -16,7 +15,7 @@ public class BakeyourbreadItemInit {
     public static final Item UNCOOKED_MUSHROOM_STEW = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.UNCOOKED_MUSHROOM_STEW));
     public static final Item UNCOOKED_RABBIT_STEW = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.UNCOOKED_RABBIT_STEW));
     public static final Item UNBAKED_BREAD = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.BREAD_DOUGH));
-    public static final Item UNBAKED_CAKE = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.UNBAKED_CAKE));
+    public static final Item UNBAKED_CAKE = new BlockItem(BakeyourbreadBlockInit.UNBAKED_CAKE, new Item.Properties().food(BakeyourbreadFoodComponents.UNBAKED_CAKE));
     public static final Item UNBAKED_COOKIE = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.COOKIE_DOUGH));
     public static final Item UNBAKED_PUMPKIN_PIE = new Item(new Item.Properties().food(BakeyourbreadFoodComponents.PUMPKIN_PIE_DOUGH));
 

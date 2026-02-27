@@ -1,6 +1,7 @@
 {
+  "block.bakeyourbread.unbaked_cake": "Ungebackener Kuchen",
+
   "item.bakeyourbread.unbaked_bread": "Brotteig",
-  "item.bakeyourbread.unbaked_cake": "Ungebackener Kuchen",
   "item.bakeyourbread.unbaked_cookie": "Keksteig",
   "item.bakeyourbread.unbaked_pumpkin_pie": "Kürbiskuchenteig",
 
