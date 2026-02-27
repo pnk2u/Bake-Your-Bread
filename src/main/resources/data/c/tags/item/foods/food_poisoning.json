@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bakeyourbread:unbaked_bread",
+    "bakeyourbread:unbaked_cake",
+    "bakeyourbread:unbaked_cookie",
+    "bakeyourbread:unbaked_pumpkin_pie",
+    "bakeyourbread:uncooked_rabbit_stew"
+  ]
+}

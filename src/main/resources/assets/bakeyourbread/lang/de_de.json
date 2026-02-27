@@ -1,10 +1,14 @@
 {
+  "block.bakeyourbread.unbaked_cake": "Ungebackener Kuchen",
+
   "item.bakeyourbread.unbaked_bread": "Brotteig",
-  "item.bakeyourbread.unbaked_cake": "Ungebackener Kuchen",
   "item.bakeyourbread.unbaked_cookie": "Keksteig",
   "item.bakeyourbread.unbaked_pumpkin_pie": "Kürbiskuchenteig",
 
   "item.bakeyourbread.uncooked_beetroot_soup": "Ungekochter Borschtsch",
   "item.bakeyourbread.uncooked_mushroom_stew": "Ungekochte Pilzsuppe",
-  "item.bakeyourbread.uncooked_rabbit_stew": "Ungekochtes Kaninchenragout"
+  "item.bakeyourbread.uncooked_rabbit_stew": "Ungekochtes Kaninchenragout",
+  "item.bakeyourbread.uncooked_golden_carrot": "Rohe Goldene Karotte",
+
+  "item.bakeyourbread.cooked_carrot": "Gekochte Karotte"
 }

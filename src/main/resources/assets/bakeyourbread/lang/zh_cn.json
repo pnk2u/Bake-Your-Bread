@@ -1,0 +1,14 @@
+{
+  "block.bakeyourbread.unbaked_cake": "生蛋糕",
+
+  "item.bakeyourbread.unbaked_bread": "面包面团",
+  "item.bakeyourbread.unbaked_cookie": "曲奇面团",
+  "item.bakeyourbread.unbaked_pumpkin_pie": "南瓜派面团",
+
+  "item.bakeyourbread.uncooked_beetroot_soup": "生甜菜汤",
+  "item.bakeyourbread.uncooked_mushroom_stew": "生磨菇煲",
+  "item.bakeyourbread.uncooked_rabbit_stew": "生兔肉煲",
+  "item.bakeyourbread.uncooked_golden_carrot": "生金胡萝卜",
+
+  "item.bakeyourbread.cooked_carrot": "烤胡萝卜"
+}

@@ -1,5 +1,6 @@
 package de.pnku.bakeyourbread;
 
+import de.pnku.bakeyourbread.init.BakeyourbreadBlockInit;
 import de.pnku.bakeyourbread.init.BakeyourbreadItemInit;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
@@ -16,7 +17,9 @@ public class BakeYourBread implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        BakeyourbreadBlockInit.registerUnbakedBlocks();
         BakeyourbreadItemInit.registerUncookedFoods();
+        BakeyourbreadItemInit.registerCookedFoods();
         BakeyourbreadItemInit.registerUnbakedFoods();
         ResourceManagerHelper.registerBuiltinResourcePack(
                 withModId("byb-recipe-override"),

@@ -5,5 +5,8 @@
   "item.minecraft.cookie": "Gebackener Keks",
   "item.minecraft.mushroom_stew": "Gekochte Pilzsuppe",
   "item.minecraft.pumpkin_pie": "Gebackener Kürbiskuchen",
-  "item.minecraft.rabbit_stew": "Gekochtes Kaninchenragout"
+  "item.minecraft.rabbit_stew": "Gekochtes Kaninchenragout",
+  "item.minecraft.golden_carrot": "Gekochte Goldene Karotte",
+
+  "item.minecraft.carrot": "Rohe Karotte"
 }

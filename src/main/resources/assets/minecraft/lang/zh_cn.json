@@ -1,0 +1,12 @@
+{
+    "block.minecraft.cake": "烤蛋糕",
+    "item.minecraft.beetroot_soup": "熟甜菜汤",
+    "item.minecraft.bread": "烤面包",
+    "item.minecraft.cookie": "烤曲奇",
+    "item.minecraft.mushroom_stew": "熟磨菇煲",
+    "item.minecraft.pumpkin_pie": "烤南瓜派",
+    "item.minecraft.rabbit_stew": "熟兔肉煲",
+    "item.minecraft.golden_carrot":"烤金胡萝卜",
+
+    "item.minecraft.carrot":"生胡萝卜"
+}
