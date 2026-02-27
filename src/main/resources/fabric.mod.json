@@ -4,9 +4,7 @@
 	"version": "${mod_version}",
 	"name": "${mod_name}",
 	"description": "${mod_description}",
-	"authors": [
-		"pnku"
-	],
+	"authors": ["pnku"],
 	"contact": {
 		"email": "contact@pnku.de",
 		"homepage": "https://www.pnku.de",
@@ -21,6 +19,9 @@
           "de.pnku.bakeyourbread.BakeYourBread"
 		]
 	},
+	"mixins": [
+		"bakeyourbread.mixins.json"
+	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",
 		"minecraft": [">${minecraft_version_0} <${minecraft_version_1}"],
