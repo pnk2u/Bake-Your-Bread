@@ -4,6 +4,7 @@
   "package": "de.pnku.bakeyourbread.mixin",
   "compatibilityLevel": "JAVA_${java_version}",
   "mixins": [
+    "AbstractHorseMixin",
     "CakeBlockMixin",
     "ComposterBlockMixin",
     "ItemsMixin"
