@@ -74,3 +74,4 @@ replay_*.log
 .gradle/8.6/checksums/checksums.lock
 *_local.*
 [[]*[]]/
+/res/
