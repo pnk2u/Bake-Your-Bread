@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:carrot"
   },
-  "result": {
-    "item": "bakeyourbread:cooked_carrot"
-  }
+  "result": "bakeyourbread:cooked_carrot"
 }

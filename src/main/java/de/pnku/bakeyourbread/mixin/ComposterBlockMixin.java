@@ -33,14 +33,14 @@ public abstract class ComposterBlockMixin {
         ComposterBlock.COMPOSTABLES.put(BakeyourbreadItemInit.UNBAKED_CAKE, 1.0F);
     }
 
-    @WrapOperation(method = "useItemOn", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/item/ItemStack;consume(ILnet/minecraft/world/entity/LivingEntity;)V"))
-    private void wrappedUseItemOnAtStackConsume(ItemStack instance, int amount, LivingEntity entity, Operation<Void> original, ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand) {
+    @WrapOperation(method = "use", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/item/ItemStack;shrink(I)V"))
+    private void wrappedUseItemOnAtStackConsume(ItemStack instance, int decrement, Operation<Void> original, BlockState s, Level l, BlockPos p, Player player, InteractionHand hand) {
         if (instance.is(BakeyourbreadItemInit.UNCOOKED_BEETROOT_SOUP) || instance.is(BakeyourbreadItemInit.UNCOOKED_MUSHROOM_STEW) || instance.is(BakeyourbreadItemInit.UNCOOKED_RABBIT_STEW)) {
-            original.call(instance, amount, entity);
+            original.call(instance, decrement);
             player.setItemInHand(hand, new ItemStack(Items.BOWL));
             return;
         }
-        original.call(instance, amount, entity);
+        original.call(instance, decrement);
     }
 
 }

@@ -5,7 +5,7 @@ import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import de.pnku.bakeyourbread.init.BakeyourbreadBlockInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodData;
 import net.minecraft.world.item.ItemStack;
@@ -33,10 +33,10 @@ public abstract class CakeBlockMixin {
         }
     }
 
-    @Inject(method = "useItemOn", at = @At(value = "HEAD"), cancellable = true)
-    private void injectedUseItemOnAtHead(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult, CallbackInfoReturnable<ItemInteractionResult> cir) {
-        if (level.getBlockState(pos).is(BakeyourbreadBlockInit.UNBAKED_CAKE) && Block.byItem(stack.getItem()) instanceof CandleBlock) {
-            cir.setReturnValue(ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION);
+    @Inject(method = "use", at = @At(value = "HEAD"), cancellable = true)
+    private void injectedUseItemOnAtHead(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit, CallbackInfoReturnable<InteractionResult> cir) {
+        if (level.getBlockState(pos).is(BakeyourbreadBlockInit.UNBAKED_CAKE) && Block.byItem(player.getUseItem().getItem()) instanceof CandleBlock) {
+            cir.setReturnValue(InteractionResult.PASS);
         }
     }
 }

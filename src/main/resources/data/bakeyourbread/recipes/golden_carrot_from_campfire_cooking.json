@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "bakeyourbread:uncooked_golden_carrot"
   },
-  "result": {
-    "item": "minecraft:golden_carrot"
-  }
+  "result": "minecraft:golden_carrot"
 }

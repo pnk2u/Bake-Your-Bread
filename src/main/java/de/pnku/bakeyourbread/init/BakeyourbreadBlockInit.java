@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CakeBlock;
 
 public class BakeyourbreadBlockInit {
-    public static final Block UNBAKED_CAKE = new CakeBlock(Block.Properties.ofFullCopy(Blocks.CAKE));
+    public static final Block UNBAKED_CAKE = new CakeBlock(Block.Properties.copy(Blocks.CAKE));
 
     public static void registerUnbakedBlocks() {
         registerBlock("unbaked_cake", UNBAKED_CAKE);
