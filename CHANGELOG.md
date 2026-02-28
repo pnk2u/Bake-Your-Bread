@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ## 1.3.0:
 - Add _**Raw** (Golden) Carrots_ (suggested by <ins>Special_TT</ins> (&#x200A;<sub><a title="Special_TT&#10;on Modrinth" href="https://modrinth.com/user/special_tt"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:MR--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Special_TT&#10;on Curseforge" href="https://www.curseforge.com/members/special_tt"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;), author of <ins>Cooked Carrot</ins> (&#x200A;<sub><a title="Cooked Carrot&#10;on Modrinth" href="https://modrinth.com/datapack/cooked-carrot/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub>&#x200A;)) 
   - _**Raw** Carrots_ are dropped when breaking fully grown _Carrot_ crops
