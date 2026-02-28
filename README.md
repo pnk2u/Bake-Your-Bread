@@ -1,7 +1,7 @@
 <a name="bakeyourbread"></a>
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; Bake Your Bread <sub><a title="Bake Your Bread on Modrinth" href="https://www.modrinth.com/mod/bakeyourbread"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="Bake Your Bread on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
 > <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/Bake-Your-Bread/pres/logo/logo_c.png">  
->  A mod adding variants for Minecraft's Food. <br><br><br><br>  
+>  A mod adding a bit of realism and challenge to aquiring several non-meat food items. <br><br><br><br>  
 > <br>  
 > <br>  
 > <br>  
@@ -44,6 +44,7 @@ Currently available in:
 - English
 - German
 - Ukrainian (@[StarmanMine142](/../../../../StarmanMine142) with [PR #3](../../pull/3)/[4](../../pull/4), added in [`1.1.2`](./CHANGELOG_history.md#1.1.2))
+- Chinese (Simplified & Traditional) (@[special_TT](/../../../../special_tt) in [a comment](../../issues/6#issuecomment-3852924130) in [Issue #6](../../issues/6), added in [`1.3.0`](./CHANGELOG_history.md#1.3.0))
 
 > [!NOTE]
 > > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
@@ -78,6 +79,7 @@ Currently available in:
   - _**Unbaked** Cake_ as an Item can now only be eaten when holding down the Sneak/Shift Key 
 - All **Raw**/**Uncooked**/**Unbaked** items can now be put in the composter
     > _Soups_ and _Stews_ return the Bowl.
+- Add Chinese (Simplified & Traditional) Translation (by [Special_TT](https://modrinth.com/user/special_tt))
 - Add several **Raw**/**Uncooked**/**Unbaked** items to relevant `#c:item_tags`:
   - `#c:foods/edible_when_placed`: _**Unbaked** Cake_
   - `#c:foods/food_poisoning`: _Bread **Dough**_, _Cookie **Dough**_, _Pumpkin Pie **Dough**_, _**Unbaked** Cake_, _**Uncooked** Rabbit Stew_
