@@ -14,8 +14,12 @@
   - _**Raw** Golden Carrots_ can be crafted using _**Raw** Carrots_
   - _**Cooked** Golden Carrots_ can be crafted using _**Cooked** Carrots_
 - _**Unbaked** Cake_ can now be placed like regular _Cake_ but just like the _**Unbaked Cake**_ item, it will restore much less hunger and saturation than _**Baked** Cake_
+  - _**Unbaked**_ and regular _Cakes_ now drop themselves when broken at zero slices eaten  
+    > If any slices have been eaten, they don't drop anything when broken, just like Vanilla.
+  - _**Unbaked** Cake_ as an Item can now only be eaten when holding down the Sneak/Shift Key 
 - All **Raw**/**Uncooked**/**Unbaked** items can now be put in the composter
     > _Soups_ and _Stews_ return the Bowl.
+- Add Chinese (Simplified & Traditional) Translation (by [Special_TT](https://modrinth.com/user/special_tt))
 - Add several **Raw**/**Uncooked**/**Unbaked** items to relevant `#c:item_tags`:
   - `#c:foods/edible_when_placed`: _**Unbaked** Cake_
   - `#c:foods/food_poisoning`: _Bread **Dough**_, _Cookie **Dough**_, _Pumpkin Pie **Dough**_, _**Unbaked** Cake_, _**Uncooked** Rabbit Stew_
