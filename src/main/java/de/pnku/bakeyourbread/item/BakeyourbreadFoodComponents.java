@@ -32,12 +32,12 @@ public class BakeyourbreadFoodComponents {
     public static final Consumable COOKIE_DOUGH_C = defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
                     List.of(new MobEffectInstance(MobEffects.HUNGER, 100, 0),
-                            new MobEffectInstance(MobEffects.CONFUSION, 100, 0)),0.1F))
+                            new MobEffectInstance(MobEffects.NAUSEA, 100, 0)),0.1F))
             .build();
     public static final Consumable BREAD_DOUGH_C = defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
                     List.of(new MobEffectInstance(MobEffects.HUNGER, 100, 0),
-                            new MobEffectInstance(MobEffects.CONFUSION, 100, 0)), 0.1F))
+                            new MobEffectInstance(MobEffects.NAUSEA, 100, 0)), 0.1F))
             .build();
     public static final Consumable PUMPKIN_PIE_DOUGH_C = defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
@@ -45,7 +45,7 @@ public class BakeyourbreadFoodComponents {
             .onConsume(new ApplyStatusEffectsConsumeEffect(
                     new MobEffectInstance(MobEffects.HUNGER, 200, 1), 0.2F))
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.CONFUSION, 100, 0), 0.2F))
+                    new MobEffectInstance(MobEffects.NAUSEA, 100, 0), 0.2F))
             .build();
     public static final Consumable UNBAKED_CAKE_C = defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
@@ -53,7 +53,7 @@ public class BakeyourbreadFoodComponents {
             .onConsume(new ApplyStatusEffectsConsumeEffect(
                     new MobEffectInstance(MobEffects.HUNGER, 200, 1), 0.1F))
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.CONFUSION, 100, 0), 0.25F))
+                    new MobEffectInstance(MobEffects.NAUSEA, 100, 0), 0.25F))
             .build();
     public static final Consumable UNCOOKED_RABBIT_STEW_C = defaultDrink()
             .onConsume(new ApplyStatusEffectsConsumeEffect(

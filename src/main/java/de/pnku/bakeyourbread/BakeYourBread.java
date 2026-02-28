@@ -6,7 +6,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,7 +28,7 @@ public class BakeYourBread implements ModInitializer {
         );
     }
 
-    public static ResourceLocation withModId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static Identifier withModId(String path) {
+        return Identifier.fromNamespaceAndPath(MODID, path);
     }
 }
