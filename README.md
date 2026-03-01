@@ -58,15 +58,15 @@ Currently available in:
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.3.1"></a>
-#### 1.3.1[*](#footnote-*):
-- `1.21.4(-11)`: Fixed crash due to missing update to block registration
+<a name="1.3.2"></a>
+#### 1.3.2[*](#footnote-*):
+- `1.21.4(-11)`: Applies fix from `1.3.1` that was accidentally missing from its release
 
-<h2><sub><sub><sup><ins>Download 1.3.1 + 1.21.4(-11)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;Bake Your Bread 1.3.1 + 1.21.4(-11)" href="https://www.modrinth.com/mod/4cgX9zXl/version/BHoZPlf2">
+<h2><sub><sub><sup><ins>Download 1.3.2 + 1.21.4(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;Bake Your Bread 1.3.2 + 1.21.4(-11)" href="https://www.modrinth.com/mod/4cgX9zXl/version/KGKAUOI9">
 <img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;1.3.1 + 1.21.4(-11) - Bake Your Bread" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread/files/7690860">
+<a title="Download (Curseforge):&#10;1.3.2 + 1.21.4(-11) - Bake Your Bread" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread/files/7694670">
 <img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
