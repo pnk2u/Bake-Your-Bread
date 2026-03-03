@@ -1,3 +1,27 @@
+<a name="1.3.2"></a>
+### 1.3.2:
+- `1.21.4(-11)`: Applies fix from `1.3.1` that was accidentally missing from its release
+
+<h2><sub><sub><sup><ins>Download 1.3.2 + 1.21.4(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;Bake Your Bread 1.3.2 + 1.21.4(-11)" href="https://www.modrinth.com/mod/4cgX9zXl/version/KGKAUOI9">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.3.2 + 1.21.4(-11) - Bake Your Bread" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread/files/7694670">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
+<a name="1.3.1"></a>
+### 1.3.1:
+- `1.21.4(-11)`: Fixed crash due to missing update to block registration
+
+<h2><sub><sub><sup><ins>Download 1.3.1 + 1.21.4(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;Bake Your Bread 1.3.1 + 1.21.4(-11)" href="https://www.modrinth.com/mod/4cgX9zXl/version/BHoZPlf2">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.3.1 + 1.21.4(-11) - Bake Your Bread" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread/files/7690860">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.3.0"></a>
 ## 1.3.0:
 - Add _**Raw** (Golden) Carrots_ (suggested by <ins>Special_TT</ins> (&#x200A;<sub><a title="Special_TT&#10;on Modrinth" href="https://modrinth.com/user/special_tt"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:GH--><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Special_TT&#10;on Curseforge" href="https://www.curseforge.com/members/special_tt"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;), author of <ins>Cooked Carrot</ins> (&#x200A;<sub><a title="Cooked Carrot&#10;on Modrinth" href="https://modrinth.com/datapack/cooked-carrot/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub>&#x200A;)) 
