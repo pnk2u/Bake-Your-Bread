@@ -8,7 +8,7 @@
     "BlockItemMixin",
     "CakeBlockMixin",
     "ComposterBlockMixin",
-    "ItemsMixin"
+    "FoodsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
