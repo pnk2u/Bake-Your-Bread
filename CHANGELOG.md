@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 1.3.3:
 - Fixed _**Raw** Carrot_ having the same nutrition value as the _**Cooked** Carrot_
     > It is now again lower, as intended.
