@@ -22,7 +22,7 @@ public class BakeyourbreadItemInit {
     public static final Item COOKED_CARROT = new Item(setFoodProperties("cooked_carrot", COOKED_CARROT_F));
     public static final Item UNCOOKED_GOLDEN_CARROT = new Item(setFoodProperties("uncooked_golden_carrot", UNCOOKED_GOLDEN_CARROT_F));
     public static final Item UNBAKED_BREAD = new Item(setFoodProperties("unbaked_bread", BREAD_DOUGH_F, BREAD_DOUGH_C));
-    public static final Item UNBAKED_CAKE = new BlockItem(BakeyourbreadBlockInit.UNBAKED_CAKE, setFoodProperties("unbaked_cake", UNBAKED_CAKE_F, UNBAKED_CAKE_C));
+    public static final Item UNBAKED_CAKE = new BlockItem(BakeyourbreadBlockInit.UNBAKED_CAKE, setBlockFoodProperties("unbaked_cake", UNBAKED_CAKE_F, UNBAKED_CAKE_C));
     public static final Item UNBAKED_COOKIE = new Item(setFoodProperties("unbaked_cookie", COOKIE_DOUGH_F, COOKIE_DOUGH_C));
     public static final Item UNBAKED_PUMPKIN_PIE = new Item(setFoodProperties("unbaked_pumpkin_pie", PUMPKIN_PIE_DOUGH_F, PUMPKIN_PIE_DOUGH_C));
 
