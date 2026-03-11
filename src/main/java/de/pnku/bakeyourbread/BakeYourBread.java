@@ -6,6 +6,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,6 +31,7 @@ public class BakeYourBread implements ModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(
                     withModId("byb-eating-animations"),
                     FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
+                    Component.translatable("resourcePack.byb_eating_animations.name"),
                     ResourcePackActivationType.ALWAYS_ENABLED
             );
         }
