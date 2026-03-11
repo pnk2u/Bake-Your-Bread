@@ -26,6 +26,13 @@ public class BakeYourBread implements ModInitializer {
                 FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
                 ResourcePackActivationType.DEFAULT_ENABLED
         );
+        if (FabricLoader.getInstance().isModLoaded("eatinganimationid")) {
+            ResourceManagerHelper.registerBuiltinResourcePack(
+                    withModId("byb-eating-animations"),
+                    FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
+                    ResourcePackActivationType.ALWAYS_ENABLED
+            );
+        }
     }
 
     public static ResourceLocation withModId(String path) {
