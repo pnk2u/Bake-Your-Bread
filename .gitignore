@@ -44,3 +44,4 @@ replay_*.log
 *_local.*
 [[]*[]]/
 /res/
+.globals
