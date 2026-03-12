@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "eatinganimationid:item/carrot_eating_0"
+    "layer0": "eatinganimation:item/carrot_eating_0"
   }
 }

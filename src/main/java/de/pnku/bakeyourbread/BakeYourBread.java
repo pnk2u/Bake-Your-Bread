@@ -6,8 +6,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
+import net.minecraft.server.packs.repository.PackRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +18,7 @@ public class BakeYourBread implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("bakeyourbread");
     public static final String MODID = "bakeyourbread";
 
+    @SuppressWarnings("deprecation") // Using deprecated Resource Pack registration for compatibility with 1.21.4(-9)
     @Override
     public void onInitialize() {
         BakeyourbreadBlockInit.registerUnbakedBlocks();
@@ -27,14 +30,12 @@ public class BakeYourBread implements ModInitializer {
                 FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
                 ResourcePackActivationType.DEFAULT_ENABLED
         );
-        if (FabricLoader.getInstance().isModLoaded("eatinganimationid")) {
-            ResourceManagerHelper.registerBuiltinResourcePack(
-                    withModId("byb-eating-animations"),
-                    FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
-                    Component.translatable("resourcePack.byb_eating_animations.name"),
-                    ResourcePackActivationType.ALWAYS_ENABLED
-            );
-        }
+        ResourceManagerHelper.registerBuiltinResourcePack(
+                withModId("byb-eating-animations"),
+                FabricLoader.getInstance().getModContainer(MODID).orElseThrow(),
+                Component.translatable("resourcePack.byb_eating_animations.name"),
+                ResourcePackActivationType.NORMAL
+        );
     }
 
     public static Identifier withModId(String path) {

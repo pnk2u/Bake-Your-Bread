@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "Eating Animations for Bake Your Bread food items."
+    "pack_format": 46,
+    "description": "Eating Animations for Bake Your Bread food items.",
+    "supported_formats": [46, 75],
+    "min_format": 46,
+    "max_format": 75
   }
 }
