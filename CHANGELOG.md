@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 1.3.5:
 - From `1.3.4`:
   - Add compatibility with <ins>Eating Animations</ins> (&#x200A;<sub><a title="Eating Animations&#10;on Modrinth" href="https://modrinth.com/mod/eating-animations/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:MR--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Eating Animations&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/eating-animations/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;):
