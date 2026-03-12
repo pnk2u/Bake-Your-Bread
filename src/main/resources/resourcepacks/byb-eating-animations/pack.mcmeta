@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Eating Animations for Bake Your Bread food items."
+    "description": {"translate": "resourcePack.byb_eating_animations.description"}
   }
 }

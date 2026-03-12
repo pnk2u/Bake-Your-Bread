@@ -10,5 +10,7 @@
   "item.bakeyourbread.uncooked_rabbit_stew": "Ungekochtes Kaninchenragout",
   "item.bakeyourbread.uncooked_golden_carrot": "Rohe Goldene Karotte",
 
-  "item.bakeyourbread.cooked_carrot": "Gekochte Karotte"
+  "item.bakeyourbread.cooked_carrot": "Gekochte Karotte",
+  "resourcePack.byb_eating_animations.name": "§lBake Your Bread§r: Essanimationen",
+  "resourcePack.byb_eating_animations.description": "Fügt Essanimationen für die Nahrungsitems von \"Bake Your Bread\" hinzu."
 }
