@@ -11,5 +11,6 @@
   "item.bakeyourbread.uncooked_golden_carrot": "Uncooked Golden Carrot",
 
   "item.bakeyourbread.cooked_carrot": "Cooked Carrot",
-  "resourcePack.byb_eating_animations.name": "Bake Your Bread: Eating Animations"
+  "resourcePack.byb_eating_animations.name": "§lBake Your Bread§r: Eating Animations",
+  "resourcePack.byb_eating_animations.description": "Adds eating animations for \"Bake Your Bread\" food items."
 }
