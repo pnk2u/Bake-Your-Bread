@@ -2,7 +2,7 @@ package de.pnku.bakeyourbread.init;
 
 import de.pnku.bakeyourbread.BakeYourBread;
 import de.pnku.bakeyourbread.item.BakeyourbreadFoodComponents;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -65,19 +65,19 @@ public class BakeyourbreadItemInit {
     private static void registerUncookedFood(Item heatedItem, Item rawItem) {
         Registry.register(BuiltInRegistries.ITEM, withModId("uncooked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "")), rawItem);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.addBefore(heatedItem, rawItem));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.insertAfter(heatedItem, rawItem));
     }
 
     private static void registerCookedFood(Item rawItem, Item heatedItem) {
         Registry.register(BuiltInRegistries.ITEM, BakeYourBread.withModId("cooked_" + rawItem.getDescriptionId().replaceFirst("item.minecraft.", "")), heatedItem);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.addAfter(rawItem, heatedItem));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.insertAfter(rawItem, heatedItem));
     }
 
     private static void registerUnbakedFood(Item heatedItem, Item rawItem) {
         Registry.register(BuiltInRegistries.ITEM, withModId("unbaked_" + heatedItem.getDescriptionId().replaceFirst("item.minecraft.", "").replaceFirst("block.minecraft.","")), rawItem);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.addBefore(heatedItem, rawItem));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> entries.insertAfter(heatedItem, rawItem));
     }
 
 
