@@ -213,9 +213,9 @@ def minecraft_version_1() {
 	else {return "99.0.0"} // Effectively no upper bound
 }
 
-def getJavaVersionNum() { if (project.minecraft_version.startsWith("1.20")) {return 17} else return 21 }
+def getJavaVersionNum() {if (project.minecraft_version.startsWith("1.20")) return 17 else if (project.minecraft_version.startsWith("1.21")) return 21 else return 25}
 var java_version = getJavaVersionNum()
-def getJavaVersionEnum() { if (project.minecraft_version.startsWith("1.20")) {return JavaVersion.VERSION_17} else return JavaVersion.VERSION_21 }
+def getJavaVersionEnum() {if (project.minecraft_version.startsWith("1.20")) return JavaVersion.VERSION_17 else if (project.minecraft_version.startsWith("1.21")) return JavaVersion.VERSION_21 else return JavaVersion.VERSION_25}
 var java_version_enum = getJavaVersionEnum()
 
 processResources {

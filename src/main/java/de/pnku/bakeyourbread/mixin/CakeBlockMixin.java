@@ -6,6 +6,9 @@ import de.pnku.bakeyourbread.init.BakeyourbreadBlockInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodData;
 import net.minecraft.world.item.ItemStack;
@@ -21,12 +24,23 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import static de.pnku.bakeyourbread.init.BakeyourbreadBlockInit.UNBAKED_CAKE;
+import static de.pnku.bakeyourbread.item.BakeyourbreadFoodComponents.*;
+
 @Mixin(CakeBlock.class)
 public abstract class CakeBlockMixin {
 
     @WrapOperation(method = "eat", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/food/FoodData;eat(IF)V"))
-    private static void wrappedEatAtEat(FoodData instance, int foodLevelModifier, float saturationLevelModifier, Operation<Void> original, LevelAccessor level, BlockPos pos) {
-        if (level.getBlockState(pos).is(BakeyourbreadBlockInit.UNBAKED_CAKE)) {
+    private static void wrappedEatAtEat(FoodData instance, int foodLevelModifier, float saturationLevelModifier, Operation<Void> original, LevelAccessor level, BlockPos pos, BlockState state, Player player) {
+        if (level.getBlockState(pos).is(UNBAKED_CAKE)) {
+            if (level.isClientSide()) {
+                boolean poisoned = player.getRandom().nextFloat() < CAKE_DOUGH_POISON_CHANCE/7;
+                boolean hungered = player.getRandom().nextFloat() < CAKE_DOUGH_HUNGER_CHANCE/7;
+                boolean confused = player.getRandom().nextFloat() < CAKE_DOUGH_CONFUSION_CHANCE/7;
+                if (poisoned) player.addEffect(new MobEffectInstance(MobEffects.POISON, CAKE_DOUGH_POISON_DURATION, CAKE_DOUGH_POISON_AMPLIFIER));
+                if (hungered) player.addEffect(new MobEffectInstance(MobEffects.HUNGER, CAKE_DOUGH_HUNGER_DURATION, CAKE_DOUGH_HUNGER_AMPLIFIER));
+                if (confused) player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, CAKE_DOUGH_CONFUSION_DURATION, CAKE_DOUGH_CONFUSION_AMPLIFIER));
+            }
             original.call(instance, 1, 0.05F);
         } else {
             original.call(instance, foodLevelModifier, saturationLevelModifier);
