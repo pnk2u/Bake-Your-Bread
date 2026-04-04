@@ -6,7 +6,6 @@ import de.pnku.bakeyourbread.init.BakeyourbreadBlockInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
@@ -36,10 +35,10 @@ public abstract class CakeBlockMixin {
             if (level.isClientSide()) {
                 boolean poisoned = player.getRandom().nextFloat() < CAKE_DOUGH_POISON_CHANCE/7;
                 boolean hungered = player.getRandom().nextFloat() < CAKE_DOUGH_HUNGER_CHANCE/7;
-                boolean confused = player.getRandom().nextFloat() < CAKE_DOUGH_CONFUSION_CHANCE/7;
+                boolean confused = player.getRandom().nextFloat() < CAKE_DOUGH_NAUSEA_CHANCE/7;
                 if (poisoned) player.addEffect(new MobEffectInstance(MobEffects.POISON, CAKE_DOUGH_POISON_DURATION, CAKE_DOUGH_POISON_AMPLIFIER));
                 if (hungered) player.addEffect(new MobEffectInstance(MobEffects.HUNGER, CAKE_DOUGH_HUNGER_DURATION, CAKE_DOUGH_HUNGER_AMPLIFIER));
-                if (confused) player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, CAKE_DOUGH_CONFUSION_DURATION, CAKE_DOUGH_CONFUSION_AMPLIFIER));
+                if (confused) player.addEffect(new MobEffectInstance(MobEffects.NAUSEA, CAKE_DOUGH_NAUSEA_DURATION, CAKE_DOUGH_NAUSEA_AMPLIFIER));
             }
             original.call(instance, 1, 0.05F);
         } else {

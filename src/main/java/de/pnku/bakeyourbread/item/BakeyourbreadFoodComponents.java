@@ -18,9 +18,9 @@ public class BakeyourbreadFoodComponents {
     public static final int CAKE_DOUGH_HUNGER_DURATION = 200;
     public static final int CAKE_DOUGH_HUNGER_AMPLIFIER = 1;
     public static final float CAKE_DOUGH_HUNGER_CHANCE = 0.3F;
-    public static final int CAKE_DOUGH_CONFUSION_DURATION = 100;
-    public static final int CAKE_DOUGH_CONFUSION_AMPLIFIER = 0;
-    public static final float CAKE_DOUGH_CONFUSION_CHANCE = 0.75F;
+    public static final int CAKE_DOUGH_NAUSEA_DURATION = 100;
+    public static final int CAKE_DOUGH_NAUSEA_AMPLIFIER = 0;
+    public static final float CAKE_DOUGH_NAUSEA_CHANCE = 0.75F;
 
     // Foods
     public static final FoodProperties COOKIE_DOUGH_F = (new FoodProperties.Builder()).nutrition(1).saturationModifier(0.1F).build();
@@ -63,7 +63,7 @@ public class BakeyourbreadFoodComponents {
             .onConsume(new ApplyStatusEffectsConsumeEffect(
                     new MobEffectInstance(MobEffects.HUNGER, CAKE_DOUGH_HUNGER_DURATION, CAKE_DOUGH_HUNGER_AMPLIFIER), CAKE_DOUGH_HUNGER_CHANCE))
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.NAUSEA, CAKE_DOUGH_CONFUSION_DURATION, CAKE_DOUGH_CONFUSION_AMPLIFIER), CAKE_DOUGH_CONFUSION_CHANCE))
+                    new MobEffectInstance(MobEffects.NAUSEA, CAKE_DOUGH_NAUSEA_DURATION, CAKE_DOUGH_NAUSEA_AMPLIFIER), CAKE_DOUGH_NAUSEA_CHANCE))
             .build();
     public static final Consumable UNCOOKED_RABBIT_STEW_C = defaultDrink()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
