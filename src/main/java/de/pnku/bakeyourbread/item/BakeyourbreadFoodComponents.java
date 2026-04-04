@@ -12,6 +12,16 @@ import static net.minecraft.world.item.component.Consumables.defaultDrink;
 import static net.minecraft.world.item.component.Consumables.defaultFood;
 
 public class BakeyourbreadFoodComponents {
+    public static final int CAKE_DOUGH_POISON_DURATION = 300;
+    public static final int CAKE_DOUGH_POISON_AMPLIFIER = 0;
+    public static final float CAKE_DOUGH_POISON_CHANCE = 0.45F;
+    public static final int CAKE_DOUGH_HUNGER_DURATION = 200;
+    public static final int CAKE_DOUGH_HUNGER_AMPLIFIER = 1;
+    public static final float CAKE_DOUGH_HUNGER_CHANCE = 0.3F;
+    public static final int CAKE_DOUGH_CONFUSION_DURATION = 100;
+    public static final int CAKE_DOUGH_CONFUSION_AMPLIFIER = 0;
+    public static final float CAKE_DOUGH_CONFUSION_CHANCE = 0.75F;
+
     // Foods
     public static final FoodProperties COOKIE_DOUGH_F = (new FoodProperties.Builder()).nutrition(1).saturationModifier(0.1F).build();
     public static final FoodProperties BREAD_DOUGH_F = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5F).build();
@@ -49,11 +59,11 @@ public class BakeyourbreadFoodComponents {
             .build();
     public static final Consumable UNBAKED_CAKE_C = defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.POISON, 300, 0), 0.15F))
+                    new MobEffectInstance(MobEffects.POISON, CAKE_DOUGH_POISON_DURATION, CAKE_DOUGH_POISON_AMPLIFIER), CAKE_DOUGH_POISON_CHANCE))
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.HUNGER, 200, 1), 0.1F))
+                    new MobEffectInstance(MobEffects.HUNGER, CAKE_DOUGH_HUNGER_DURATION, CAKE_DOUGH_HUNGER_AMPLIFIER), CAKE_DOUGH_HUNGER_CHANCE))
             .onConsume(new ApplyStatusEffectsConsumeEffect(
-                    new MobEffectInstance(MobEffects.NAUSEA, 100, 0), 0.25F))
+                    new MobEffectInstance(MobEffects.NAUSEA, CAKE_DOUGH_CONFUSION_DURATION, CAKE_DOUGH_CONFUSION_AMPLIFIER), CAKE_DOUGH_CONFUSION_CHANCE))
             .build();
     public static final Consumable UNCOOKED_RABBIT_STEW_C = defaultDrink()
             .onConsume(new ApplyStatusEffectsConsumeEffect(
