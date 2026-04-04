@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 1.3.6:
 - `26.1`: Update to <ins>26.1</ins>
 - Fix _**Unbaked** Cake_ placed as a block not applying _Poison_/_Hunger_/_Nausea_ effects when eaten  
