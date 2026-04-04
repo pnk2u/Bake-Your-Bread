@@ -1,3 +1,20 @@
+<a name="1.3.6"></a>
+### 1.3.6:
+- `26.1`: Update to <ins>26.1</ins>
+- Fix _**Unbaked** Cake_ placed as a block not applying _Poison_/_Hunger_/_Nausea_ effects when eaten  
+  > The probability of applying these effects for each slice is a seventh of the probability from eating the item.
+- Decrease (slightly) the Nutrition/Saturation values of _**Unbaked** Cake_ when eaten as Item
+- Increase the probability of applying _Poison_/_Hunger_/_Nausea_ effects
+
+
+<h2><sub><sub><sup><ins>Download 1.3.6 + 26.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;Bake Your Bread 1.3.6 + 26.1" href="https://www.modrinth.com/mod/4cgX9zXl/version/iz2JbgUh">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;1.3.6 + 26.1 - Bake Your Bread" href="https://www.curseforge.com/minecraft/mc-mods/bakeyourbread/files/7873573">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.3.5"></a>
 ### 1.3.5:
 - From `1.3.4`:
