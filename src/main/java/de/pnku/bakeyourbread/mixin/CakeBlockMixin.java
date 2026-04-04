@@ -32,7 +32,7 @@ public abstract class CakeBlockMixin {
     @WrapOperation(method = "eat", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/food/FoodData;eat(IF)V"))
     private static void wrappedEatAtEat(FoodData instance, int foodLevelModifier, float saturationLevelModifier, Operation<Void> original, LevelAccessor level, BlockPos pos, BlockState state, Player player) {
         if (level.getBlockState(pos).is(UNBAKED_CAKE)) {
-            if (level.isClientSide()) {
+            if (!level.isClientSide()) {
                 boolean poisoned = player.getRandom().nextFloat() < CAKE_DOUGH_POISON_CHANCE/7;
                 boolean hungered = player.getRandom().nextFloat() < CAKE_DOUGH_HUNGER_CHANCE/7;
                 boolean confused = player.getRandom().nextFloat() < CAKE_DOUGH_CONFUSION_CHANCE/7;
