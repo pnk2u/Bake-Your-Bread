@@ -35,7 +35,7 @@ public class BakeyourbreadItemInit {
         return new Item.Properties()
                 .setId(ResourceKey.create(Registries.ITEM, withModId(foodName)))
                 .useBlockDescriptionPrefix()
-                .food(foodProperties);
+                .food(foodProperties, consumable);
     }
     public static Item.Properties setFoodProperties(String foodName, FoodProperties foodProperties, Consumable consumable) {
         return new Item.Properties()
